@@ -94,8 +94,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Badminton.PNG" />
     <Content Include="Images\Golf.PNG" />
     <Content Include="Images\Skimboard.PNG" />
+    <Content Include="Images\Yonex.PNG" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
