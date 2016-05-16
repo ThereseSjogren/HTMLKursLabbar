@@ -96,8 +96,10 @@
   <ItemGroup>
     <Content Include="Discoverthetagworld.html" />
     <Content Include="Images\Badminton.PNG" />
+    <Content Include="Images\BAkgrundsbild.PNG" />
     <Content Include="Images\Golf.PNG" />
     <Content Include="Images\Skimboard.PNG" />
+    <Content Include="Images\WinnieThePooh.PNG" />
     <Content Include="Images\Yonex.PNG" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
