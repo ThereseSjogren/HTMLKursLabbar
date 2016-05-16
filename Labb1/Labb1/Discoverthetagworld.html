@@ -29,100 +29,110 @@
         <section>
             <h2>New tags</h2>
             <p>
-                The <b>< abbr ></b> element is about the word for example the
+                The <b>&lt; abbr &gt;</b> element is about the word for example the
                 <abbr title="=National Aeronautics and Space Administration">NASA</abbr>. If you have
                 that word and there is an explenation for it you could use it like this.
                 <abbr title="=National Aeronautics and Space Administration">NASA</abbr> if you set
                 the mouse over the word it will show you what it the stands for.
-                The <mark><b>< acroynym ></b></mark> is the same as <mark><b>< abbr ></b></mark> 
+                The <mark><b>&lt; acroynym &gt;</b></mark> is the same as <mark><b>&lt; abbr &gt;</b></mark>
                 and it was used in HTML4.
             </p>
             <p>
-                The <b>< blockquote ></b> element is longer qoute and it has no signs around it. It looks like
-                this: <blockquote>People say nothing is impossible, but I do nothing every day</blockquote>
+                The <b>&lt; blockquote &gt;</b> element is longer qoute and it has no signs around it.
+                In <b>&lt; blockqoutes &gt;</b> you can have the cite to the side where the qoute is taken from.
+                It looks like this:
             </p>
+            <blockquote cite="https://www.goodreads.com/work/quotes/1225592-winnie-the-pooh-the-house-at-pooh-corner">
+                People say nothing is impossible, but I do nothing every day
+            </blockquote>
+
             <p>
-                The <b>< figcaption ></b> element provides a text description for the content of the <mark>figure</mark>
-                element. Where in this case <i>Winnie the Pooh</i> is in the <mark>figcaption</mark> tag. It looks like this:
-                <figure>
-                    <img src="Images/WinnieThePooh.PNG" alt="Winnie the Pooh with qoutes"/>
-                    <figcaption>Winnie the Pooh </figcaption>
-                </figure>
+                The <b>&lt; figcaption &gt;</b> element provides a text description for the content of the <mark>figure</mark>
+                element. Where in this case <i>Winnie the Pooh</i> is in the <b>&lt; figcaption &gt;</b> tag. It looks like this:
             </p>
+            <figure>
+                <img src="Images/WinnieThePooh.PNG" alt="Winnie the Pooh with qoutes" />
+                <figcaption>Winnie the Pooh </figcaption>
+            </figure>
+
             <p>
-                The <b>< del ></b> element is when something has been deleted. It is shown with a line through it.
-                The <b>< ins ></b> element is when something has been inserted. It is shown with underlined.
+                The <b>&lt; del &gt;</b> element is when something has been deleted. It is shown with a line through it.
+                The <b>&lt; ins &gt;</b> element is when something has been inserted. It is shown with underlined.
                 The both looks like this:
-                Some people care <del>to</del> too much. I think it's called love. This is <i>del</i><br />
-                Some people care <ins>too</ins> much. I think it's called love. This is <i>ins</i>
-                Then we also have the <b>< s ></b> element. This indicates something that is no longer accurate 
-                or relevant, but that should not be deleted. It looks a little bit the same as the <i>del</i> 
+                Some people care <del>to</del> too much. I think it's called love. This is <b>&lt; del &gt;</b><br />
+                Some people care <ins>too</ins> much. I think it's called love. This is <b>&lt; ins &gt;</b>
+                Then we also have the <b>&lt; s &gt;</b> element. This indicates something that is no longer accurate
+                or relevant, but that should not be deleted. It looks a little bit the same as the <b>&lt; del &gt;</b>
                 element but it isn't.<br />
                 Skimboard:<br />
                 <s>Was $500</s><br />
                 Now only $300
             </p>
             <p>
-                The<b>< table ></b> element is use to create tables. The <b>< th ></b> element shows the header cell 
-                in the table and it describes what the data stands for. It is the name of the colum and the 
-                row. The <b>< tr ></b> element shows the row in the table we are writing on followed by some
-                <b>< td ></b> elements that is the table data. looks like this:<br />
-                <table>
-                    <tr>
-                        <th scope="col">Name</th>
-                        <th scope="col">Monday</th>
-                        <th scope="col">Tuesday</th>
-                        <th scope="col">Wednesday</th>
-                        <th scope="col">Thursday</th>
-                        <th scope="col">Friday</th>
-                    </tr>
-                    <tr>
-                        <th scope="row">Therese</th>
-                        <td>6.00-14.30</td>
-                        <td>7.00-15.30</td>
-                        <td>10.00-18.30</td>
-                        <td>8.00-16.30</td>
-                        <td>6.00-14.30</td>                    
-                    </tr>
-                    <tr>
-                        <th scope="row">Martina</th>
-                        <td>7.00-15.30</td>
-                        <td>6.00-14.30</td>
-                        <td>08.30-17.00</td>
-                        <td>10.00-18.30</td>
-                        <td>7.00-15.30</td> 
-                    </tr>
-                    <tr>
-                        <th scope="row">Ann-Sofie</th>
-                        <td>8.00-16.30</td>
-                        <td>10.00-18.30</td>
-                        <td>6.00-14.30</td>
-                        <td>7.00-15.30</td>
-                        <td>7.30-16.00</td>
-                    </tr>
-                    <colgroup>
-                        <col span="6" style="background-image: url('Images/BAkgrundsbild.PNG')" />
-                    </colgroup>
-                    <caption>Summer Scheme</caption>
-                </table>
+                The<b>&lt; table &gt;</b> element is use to create tables. The <b>&lt; th &gt;</b> element shows the header cell
+                in the table and it describes what the data stands for. It is the name of the colum and the
+                row. The <b>&lt; tr &gt;</b> element shows the row in the table we are writing on followed by some
+                <b>&lt; td &gt;</b> elements that is the table data. looks like this:<br />
             </p>
+            <table>
+                <caption>Summer Scheme</caption>
+                <colgroup>
+                    <!-- <col span="5" style="background-color:aqua"/>
+                    <col style="background-color:brown"/>-->
+                    <col span="6" style="background-image: url('Images/BAkgrundsbild.PNG')" />
+                </colgroup>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Monday</th>
+                    <th scope="col">Tuesday</th>
+                    <th scope="col">Wednesday</th>
+                    <th scope="col">Thursday</th>
+                    <th scope="col">Friday</th>
+                </tr>
+                <tr>
+                    <th scope="row">Therese</th>
+                    <td>6.00-14.30</td>
+                    <td>7.00-15.30</td>
+                    <td>10.00-18.30</td>
+                    <td>8.00-16.30</td>
+                    <td>6.00-14.30</td>
+                </tr>
+                <tr>
+                    <th scope="row">Martina</th>
+                    <td>7.00-15.30</td>
+                    <td>6.00-14.30</td>
+                    <td>08.30-17.00</td>
+                    <td>10.00-18.30</td>
+                    <td>7.00-15.30</td>
+                </tr>
+                <tr>
+                    <th scope="row">Ann-Sofie</th>
+                    <td>8.00-16.30</td>
+                    <td>10.00-18.30</td>
+                    <td>6.00-14.30</td>
+                    <td>7.00-15.30</td>
+                    <td>7.30-16.00</td>
+                </tr>
+
+
+            </table>
+
             <p>
-                The <b>< caption ></b> element represent the title of the table. It has to be 
+                The <b>&lt; caption &gt;</b> element represent the title of the table. It has to be
                 inside the table tag.
             </p>
             <p>
-                The <b>< col ></b> tag is useful for applying styles to entire columns,
+                The <b>&lt; col &gt;</b> tag is useful for applying styles to entire columns,
                 instead of repeating the styles for each cell, for each row
             </p>
             <p>
-                The <b>< colgroup ></b> tag specifies a group of one or more columns in a table for formatting.
-                The <b>< colgroup ></b> tag is useful for applying styles to entire columns,
+                The <b>&lt; colgroup &gt;</b> tag specifies a group of one or more columns in a table for formatting.
+                The <b>&lt; colgroup &gt;</b> tag is useful for applying styles to entire columns,
                 instead of repeating the styles for each cell, for each row.
-                The <b>< colgroup ></b> tag must be a child of a <b>< table ></b>
-                element, after any <b>< caption ></b> elements and before any <br />
-                <b>< thead ></b>, <b>< tbody ></b>, <b>< tfoot ></b>, and <b>< tr ></b> elements.
-                To define different properties to a column within a <b>< colgroup ></b>,
-                use the <b>< col ></b> tag within the <b>< colgroup ></b> tag.
+                The <b>&lt; colgroup &gt;</b> tag must be a child of a <b>&lt; table &gt;</b>
+                element, after any <b>&lt; caption &gt;</b> elements.
+                To define different properties to a column within a <b>&lt; colgroup &gt;</b>,
+                use the <b>&lt; col&gt;</b> tag within the <b>&lt; colgroup &gt;</b> tag.
             </p>
         </section>
     </article>
