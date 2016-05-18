@@ -94,6 +94,15 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Badminton2Labb2.PNG" />
+    <Content Include="Images\Badminton3Labb2.PNG" />
+    <Content Include="Images\Baminton1Labb2.PNG" />
+    <Content Include="Images\Golf1Labb2.PNG" />
+    <Content Include="Images\Golf2Labb2.PNG" />
+    <Content Include="Images\Golf3Labb2.PNG" />
+    <Content Include="Images\Skimboard1Labb2.PNG" />
+    <Content Include="Images\Skimboard2Labb2.PNG" />
+    <Content Include="Images\Skimboard3Labb2.PNG" />
     <Content Include="pages\Discoverthetagworld.html" />
     <Content Include="Images\Badminton.PNG" />
     <Content Include="Images\BAkgrundsbild.PNG" />
@@ -123,6 +132,9 @@
     <Content Include="Images\MrBean.mp4" />
     <Content Include="Images\NeonHeart-EndlessGrace.mp3" />
     <Content Include="index.html" />
+    <Content Include="pages\order.html" />
+    <Content Include="pages\recipe.html" />
+    <Content Include="pages\save.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="pages\skimboard.html" />
