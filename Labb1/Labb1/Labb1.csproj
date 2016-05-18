@@ -94,7 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Discoverthetagworld.html" />
+    <Content Include="pages\Discoverthetagworld.html" />
     <Content Include="Images\Badminton.PNG" />
     <Content Include="Images\BAkgrundsbild.PNG" />
     <Content Include="Images\Golf.PNG" />
@@ -117,19 +117,19 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="badminton.html" />
-    <Content Include="golf.html" />
+    <Content Include="pages\badminton.html" />
+    <Content Include="pages\golf.html" />
     <Content Include="Images\Maldive3.mp4" />
     <Content Include="Images\MrBean.mp4" />
     <Content Include="Images\NeonHeart-EndlessGrace.mp3" />
     <Content Include="index.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
-    <Content Include="skimboard.html" />
-    <Content Include="SoundAutoplay.html" />
-    <Content Include="SoundVisualPlayer.html" />
-    <Content Include="UseHTML5.html" />
-    <Content Include="Video.html" />
+    <Content Include="pages\skimboard.html" />
+    <Content Include="pages\SoundAutoplay.html" />
+    <Content Include="pages\SoundVisualPlayer.html" />
+    <Content Include="pages\UseHTML5.html" />
+    <Content Include="pages\Video.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
