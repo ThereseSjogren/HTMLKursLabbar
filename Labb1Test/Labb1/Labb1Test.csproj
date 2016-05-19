@@ -133,6 +133,7 @@
     <Content Include="Images\NeonHeart-EndlessGrace.mp3" />
     <Content Include="index.html" />
     <Content Include="pages\Learnaboutinput1.html" />
+    <Content Include="pages\learnaboutinput2.html" />
     <Content Include="pages\order.html" />
     <Content Include="pages\recipe.html" />
     <Content Include="pages\save.html" />
