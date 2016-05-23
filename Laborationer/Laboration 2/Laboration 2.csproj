@@ -106,6 +106,21 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\Badminton.PNG" />
+    <Content Include="images\Badminton2Labb2.PNG" />
+    <Content Include="images\Badminton3Labb2.PNG" />
+    <Content Include="images\Baminton1Labb2.PNG" />
+    <Content Include="images\Golf.PNG" />
+    <Content Include="images\Golf1Labb2.PNG" />
+    <Content Include="images\Golf2Labb2.PNG" />
+    <Content Include="images\Golf3Labb2.PNG" />
+    <Content Include="images\Skimboard.PNG" />
+    <Content Include="images\Skimboard1Labb2.PNG" />
+    <Content Include="images\Skimboard2Labb2.PNG" />
+    <Content Include="images\Skimboard3Labb2.PNG" />
+    <Content Include="index.html" />
+    <Content Include="pages\order.html" />
+    <Content Include="pages\recipe.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="Web.config" />
@@ -113,6 +128,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
