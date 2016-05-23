@@ -119,6 +119,11 @@
     <Content Include="images\Skimboard2Labb2.PNG" />
     <Content Include="images\Skimboard3Labb2.PNG" />
     <Content Include="index.html" />
+    <Content Include="pages\learnaboutinput1.html" />
+    <Content Include="pages\learnaboutinput2.html" />
+    <Content Include="pages\learnaboutinput3.html" />
+    <Content Include="pages\learnaboutinput4.html" />
+    <Content Include="pages\learnaboutinput5.html" />
     <Content Include="pages\order.html" />
     <Content Include="pages\recipe.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
