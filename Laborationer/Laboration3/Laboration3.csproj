@@ -106,13 +106,21 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\BaconAnimation.PNG" />
+    <Content Include="images\PiratJake.PNG" />
+    <Content Include="index.html" />
+    <Content Include="pages\differentsizes.html" />
+    <Content Include="pages\thecoolpage.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
+    <Content Include="stylingCSS\differentsizeswindow.css" />
+    <Content Include="stylingCSS\Styling.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
