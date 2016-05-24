@@ -97,6 +97,8 @@
     <Content Include="images\Hund.PNG" />
     <Content Include="images\Katt.PNG" />
     <Content Include="images\KLocka.PNG" />
+    <Content Include="images\Labb3FAcebook.PNG" />
+    <Content Include="images\Labb3Skanetrafiken.PNG" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

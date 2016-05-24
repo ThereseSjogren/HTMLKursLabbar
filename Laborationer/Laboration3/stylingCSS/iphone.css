@@ -54,6 +54,20 @@
     border-radius:5px;
     background-color:black;
 }
+#skanetrafiken{
+    width:40px;
+    height:40px;
+    float:left;
+    margin-left:30px;
+    margin-top:-450px;
+}
+#facebook{
+     width:40px;
+    height:40px;
+    float:left;
+    margin-left:90px;
+    margin-top:-450px;
+}
 #button{
     height: 50px;
     width: 50px;
