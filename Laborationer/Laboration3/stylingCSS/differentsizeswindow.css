@@ -5,7 +5,8 @@
  
  #surfplatta { 
      display: none; 
-     font-family:'Times New Roman', Times, serif, 'Comic Sans MS'; 
+     font-family:'Times New Roman', Times, serif, 'Comic Sans MS';
+      
  } 
  
  
@@ -13,6 +14,7 @@
      display: none; 
      font-family:Arial, Helvetica, sans-serif,'Comic Sans MS'; 
  } 
+ 
  
 
  #print { 
@@ -98,4 +100,40 @@
  #dator { 
      display: none; 
  } 
+ }
+ #mobil article{
+     border:4px solid black;
+     color:white;
  } 
+ #mobil nav{
+     width:100%;
+ }
+ #mobil ul {
+     list-style-type:none;
+     
+ }
+ #mobil li{  
+     width:100%;
+     padding:3px;
+     margin:1px; 
+ }
+ #mobil li a{
+     width:100%;
+     text-decoration:none;
+     border:2px solid black;
+     border-radius:5px;
+     color:black;
+     background-color:gainsboro;
+     text-transform:uppercase;
+     letter-spacing:2px;
+ }
+ img{
+     border-radius:30%;
+     width:30%;
+     height:30%;
+ }
+ img:hover{
+     border-radius:60%;
+     width:60%;
+     height:60%;
+ }
