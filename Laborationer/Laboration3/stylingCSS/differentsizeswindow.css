@@ -1,25 +1,101 @@
-﻿@media screen and (min-width: 768px) {
-    body {
-        background-color: grey;
-    }
-}
+﻿body { 
+     background-color:gray; 
+ } 
+ 
+ 
+ #surfplatta { 
+     display: none; 
+     font-family:'Times New Roman', Times, serif, 'Comic Sans MS'; 
+ } 
+ 
+ 
+ #mobil { 
+     display: none; 
+     font-family:Arial, Helvetica, sans-serif,'Comic Sans MS'; 
+ } 
+ 
 
-#surfplatta {
-    display: none;
-    max-width: 768px;
-    min-width: 480px;
-    background-color: red;
-}
-
-
-#mobil {
-    display: none;
-    max-width: 480px;
-    background-color: purple;
-}
-
-#print {
-    display: none;
-    background-color: white;
-}
-
+ #print { 
+     display: none; 
+     font-family:'Comic Sans MS',Cambria, Cochin, Georgia, Times, Times New Roman, serif; 
+ } 
+ 
+ /*Media Querie som bestämmer vilket format som skall visas beroende på storleken*/
+ @media only screen and (max-width: 768px) { 
+     body { 
+         background-color: red; 
+     } 
+ 
+ 
+     #surfplatta { 
+     display: block; 
+ } 
+ 
+ 
+ #mobil { 
+     display: none; 
+ } 
+ 
+ 
+ #print { 
+     display: none; 
+ } 
+ 
+ 
+ #dator { 
+     display: none; 
+ } 
+ } 
+ 
+ /*Media Querie som bestämmer vilket format som skall visas beroende på storleken*/
+@media only screen and (max-width: 480px) { 
+     body { 
+         background-color: purple; 
+     } 
+ 
+ 
+     #surfplatta { 
+     display: none; 
+ } 
+ 
+ 
+ #mobil { 
+     display: block; 
+ } 
+ 
+ #print { 
+     display: none; 
+ } 
+ 
+ 
+ #dator { 
+     display: none; 
+ } 
+ } 
+ 
+ 
+ @media only print { 
+     body { 
+         background-color: white; 
+     } 
+ 
+ 
+     #surfplatta { 
+     display: none; 
+ } 
+ 
+ 
+ #mobil { 
+     display: none; 
+ } 
+ 
+ 
+ #print { 
+     display: block; 
+ } 
+ 
+ 
+ #dator { 
+     display: none; 
+ } 
+ } 
