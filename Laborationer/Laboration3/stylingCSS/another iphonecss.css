@@ -1,0 +1,112 @@
+﻿body {
+}
+#wrapper {
+    margin: 0px auto;
+    width: 300px;
+}
+
+#onoff {
+    height: 3px;
+    width: 50px;
+    background-color: #464646;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    margin-left: 180px;
+}
+
+#mute {
+    height: 25px;
+    width: 3px;
+    background-color:#464646;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    float: left;
+    margin-top: 97px;
+}
+
+#up {
+    height: 18px;
+    width: 3px;
+    background-color:#464646;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    float: left;
+    margin-left: -3px;
+    margin-top: 145px;
+}
+
+#down {
+    height: 18px;
+    width: 3px;
+    background-color:#464646;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    float: left;
+    margin-left: -3px;
+    margin-top: 180px;
+}
+#frame {
+    margin-left: 3px;
+    height: 610px;
+    width: 280px;
+    background-color: white;
+    border: 2px solid #464646;
+    border-radius: 35px;
+    
+}
+
+#camera {
+    margin: 25px auto 15px auto;
+    background-color: black;
+    height: 10px;
+    width: 10px;
+    border: 1px solid #464646;
+    border-radius: 50%;
+    
+}
+
+#dot {
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border: 1px solid #464646;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+
+#speaker {
+    width: 50px;
+    height: 5px;
+    background-color: black;
+    border: 1px solid #464646;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 6px;
+}
+
+#screen {
+    height: 450px;
+    width: 250px;
+    margin: 25px auto 12px auto;
+    border: 1px solid #464646;
+    background-color:black;
+    border-radius: 2px;
+}
+
+#button {
+    height: 40px;
+    width: 40px;
+    margin: 0 auto;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    
+}
+
+#squere {
+    width: 14px;
+    height: 14px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    margin: 12px auto;
+}

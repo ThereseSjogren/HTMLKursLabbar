@@ -112,12 +112,16 @@
     <Content Include="images\BaconAnimation.PNG" />
     <Content Include="images\PiratJake.PNG" />
     <Content Include="index.html" />
+    <Content Include="pages\another iphone.html" />
     <Content Include="pages\differentsizes.html" />
     <Content Include="pages\DingelingPostIt.html" />
+    <Content Include="pages\Iphone.html" />
     <Content Include="pages\thecoolpage.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
+    <Content Include="stylingCSS\another iphonecss.css" />
     <Content Include="stylingCSS\differentsizeswindow.css" />
+    <Content Include="stylingCSS\iphone.css" />
     <Content Include="stylingCSS\Postit.css" />
     <Content Include="stylingCSS\Styling.css" />
     <Content Include="Web.config" />
