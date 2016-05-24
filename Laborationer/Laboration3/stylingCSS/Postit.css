@@ -1,0 +1,65 @@
+﻿#postOne {
+background-color:yellow; 
+padding:10px; 
+font-family: 'Comic Sans MS'; 
+font-size:15px; 
+color: black; 
+width:200px;
+height:180px; 
+margin:35px;
+transform:rotate(10deg);
+box-shadow: 0px 4px 6px black;
+}
+#framstor{
+    text-indent:-9999px;
+}
+#framstor:hover{
+    font-family:'Comic Sans MS';
+    text-indent:10000px;
+}
+#postOne:hover{
+    height:360px;
+    width:400px;
+    margin:35px;
+    padding: 10px;
+    background-color:greenyellow;
+
+}
+#postTwo {
+    background-color: yellow;
+    padding: 10px;
+    font-family: 'Comic Sans MS';
+    font-size: 15px;
+    color: black;
+    width: 200px;
+    height: 180px;
+    margin: 35px;
+    transform: rotate(10deg);
+    box-shadow: 0px 4px 6px black;
+}
+    #postTwo:hover {
+        height: 360px;
+        width: 400px;
+        margin: 35px;
+        padding: 10px;
+        background-color: orange;
+    }
+#postThree {
+    background-color: yellow;
+    padding: 10px;
+    font-family: 'Comic Sans MS';
+    font-size: 15px;
+    color: black;
+    width: 200px;
+    height: 180px;
+    margin: 35px;
+    transform: rotate(10deg);
+    box-shadow: 0px 4px 6px black;
+}
+#postThree:hover {
+    height: 360px;
+    width: 400px;
+    margin: 35px;
+    padding: 10px;
+    background-color: dodgerblue;
+}
