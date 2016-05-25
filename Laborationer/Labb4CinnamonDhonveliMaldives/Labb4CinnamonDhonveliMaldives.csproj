@@ -106,13 +106,34 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\BeachAndOcean.PNG" />
+    <Content Include="images\CinnamonHotels.PNG" />
+    <Content Include="images\ClownFish.PNG" />
+    <Content Include="images\HusVidVattnet.PNG" />
+    <Content Include="images\LoggoSidor.PNG" />
+    <Content Include="images\MaldivesWave.PNG" />
+    <Content Include="images\OceanAndBeach.PNG" />
+    <Content Include="images\OceanAndBeach2.PNG" />
+    <Content Include="images\Strand1.PNG" />
+    <Content Include="images\Sunset.PNG" />
+    <Content Include="images\UnderWater.PNG" />
+    <Content Include="index.html" />
+    <Content Include="pages\Contact.html" />
+    <Content Include="pages\CustomerReviews.html" />
+    <Content Include="pages\DreamPhoto.html" />
+    <Content Include="pages\Links.html" />
+    <Content Include="pages\ReceptionStaff.html" />
+    <Content Include="pages\TheMaldivesGame.html" />
+    <Content Include="pages\VideoSnap.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
+    <Content Include="styling\StyleMenu.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

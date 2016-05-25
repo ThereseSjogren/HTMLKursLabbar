@@ -1,0 +1,33 @@
+﻿body {
+    background-color: lightblue;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    word-spacing: 35%;
+    
+}
+
+li a {
+    text-decoration: none;
+    margin: 5px;
+    font-size: 22px;
+}
+a:hover{
+    color:gold;
+}
+
+header {
+    padding-left: 5%;
+    position:fixed;
+}
+figure{
+    padding-top:45%;
+    margin:3%;
+    z-index:-1;
+
+}
+img{
+
+}
