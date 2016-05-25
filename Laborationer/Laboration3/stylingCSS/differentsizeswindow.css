@@ -1,139 +1,144 @@
-﻿body { 
-     background-color:gray; 
- } 
- 
- 
- #surfplatta { 
-     display: none; 
-     font-family:'Times New Roman', Times, serif, 'Comic Sans MS';
-      
- } 
- 
- 
- #mobil { 
-     display: none; 
-     font-family:Arial, Helvetica, sans-serif,'Comic Sans MS'; 
- } 
- 
- 
+﻿body {
+    background-color: gray;
+}
 
- #print { 
-     display: none; 
-     font-family:'Comic Sans MS',Cambria, Cochin, Georgia, Times, Times New Roman, serif; 
- } 
- 
- /*Media Querie som bestämmer vilket format som skall visas beroende på storleken*/
- @media only screen and (max-width: 768px) { 
-     body { 
-         background-color: red; 
-     } 
- 
- 
-     #surfplatta { 
-     display: block; 
- } 
- 
- 
- #mobil { 
-     display: none; 
- } 
- 
- 
- #print { 
-     display: none; 
- } 
- 
- 
- #dator { 
-     display: none; 
- } 
- } 
- 
- /*Media Querie som bestämmer vilket format som skall visas beroende på storleken*/
-@media only screen and (max-width: 480px) { 
-     body { 
-         background-color: purple; 
-     } 
- 
- 
-     #surfplatta { 
-     display: none; 
- } 
- 
- 
- #mobil { 
-     display: block; 
- } 
- 
- #print { 
-     display: none; 
- } 
- 
- 
- #dator { 
-     display: none; 
- } 
- } 
- 
- 
- @media only print { 
-     body { 
-         background-color: white; 
-     } 
- 
- 
-     #surfplatta { 
-     display: none; 
- } 
- 
- 
- #mobil { 
-     display: none; 
- } 
- 
- 
- #print { 
-     display: block; 
- } 
- 
- 
- #dator { 
-     display: none; 
- } 
- }
- #mobil article{
-     border:4px solid black;
-     color:white;
- } 
- #mobil nav{
-     width:100%;
- }
- #mobil ul {
-     list-style-type:none;
-     
- }
- #mobil li{  
-     width:100%;
-     padding:3px;
-     margin:1px; 
- }
- #mobil li a{
-     width:100%;
-     text-decoration:none;
-     border:2px solid black;
-     border-radius:5px;
-     color:black;
-     background-color:gainsboro;
-     text-transform:uppercase;
-     letter-spacing:2px;
- }
- img{
-     border-radius:30%;
-     width:30%;
-     height:30%;
- }
- img:hover{
-     border-radius:60%;
-     width:60%;
-     height:60%;
- }
+
+#surfplatta {
+    display: none;
+    font-family: 'Times New Roman', Times, serif, 'Comic Sans MS';
+}
+
+
+#mobil {
+    display: none;
+    font-family: Arial, Helvetica, sans-serif,'Comic Sans MS';
+}
+
+
+
+#print {
+    display: none;
+    font-family: 'Comic Sans MS',Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+/*Media Querie som bestämmer vilket format som skall visas beroende på storleken*/
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: red;
+    }
+
+
+    #surfplatta {
+        display: block;
+    }
+
+
+    #mobil {
+        display: none;
+    }
+
+
+    #print {
+        display: none;
+    }
+
+
+    #dator {
+        display: none;
+    }
+}
+
+/*Media Querie som bestämmer vilket format som skall visas beroende på storleken*/
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: purple;
+    }
+
+
+    #surfplatta {
+        display: none;
+    }
+
+
+    #mobil {
+        display: block;
+    }
+
+    #print {
+        display: none;
+    }
+
+
+    #dator {
+        display: none;
+    }
+}
+
+
+@media only print {
+    body {
+        background-color: white;
+    }
+
+
+    #surfplatta {
+        display: none;
+    }
+
+
+    #mobil {
+        display: none;
+    }
+
+
+    #print {
+        display: block;
+    }
+
+
+    #dator {
+        display: none;
+    }
+}
+
+#mobil article {
+    border: 4px solid black;
+    color: white;
+}
+
+#mobil nav {
+    width: 100%;
+}
+
+#mobil ul {
+    list-style-type: none;
+}
+
+#mobil li {
+    width: 100%;
+    padding: 3px;
+    margin: 1px;
+}
+
+    #mobil li a {
+        width: 100%;
+        text-decoration: none;
+        border: 2px solid black;
+        border-radius: 5px;
+        color: black;
+        background-color: gainsboro;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+img {
+    border-radius: 30%;
+    width: 30%;
+    height: 30%;
+}
+
+    img:hover {
+        border-radius: 60%;
+        width: 60%;
+        height: 60%;
+    }
