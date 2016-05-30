@@ -44,5 +44,16 @@ color:black;
     .box:hover {
         transform: /*rotate(360deg)*/ rotateX(360deg) rotate(360deg);
     }
+    #wrappertv{
+        border:5px solid black;
+        padding:15px;
+        background-color:white;
+        border-radius:5%;
+    }
+    #tv{
+    border:5px solid black;
+    
+    
+    }
 
   
