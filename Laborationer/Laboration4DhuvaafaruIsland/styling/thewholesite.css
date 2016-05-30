@@ -7,3 +7,20 @@
     -ms-flex-wrap:wrap;
     flex-wrap:wrap;
 }
+p{
+    display:none;
+}
+.box img{
+    width:20vw;
+    height:20vw;
+}
+.box{
+    padding:2px;
+    margin:3px;
+    transition:all 5s;
+}
+.box:hover {
+    transform:rotate(360deg);
+}
+
+  
