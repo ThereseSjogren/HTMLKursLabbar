@@ -3,12 +3,14 @@
 <head>
     <title>Contact</title>
 	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="../scripts/jquery-1.9.1.min.js"></script>
+    <script src="../scripts/bootstrap.min.js"></script>
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../styling/thewholesite.css" rel="stylesheet" type="text/css"/>
     <meta name="author" content="Therese Sjögren" />
     <meta name="description" content="An amazing site of the Island Dhuvaafaru" />
     <meta name="keywords" content="Maldive, Dhuvaafaru, Photo, Game, About" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link href="../Content/bootstrap.css" rel="stylesheet" />
-    <link href="../styling/thewholesite.css" rel="stylesheet" />
 </head>
 <body>
     
@@ -31,7 +33,7 @@
         </header>
     </div>
     <div class="container">
-        <p>Do you like this site and want some more info? Please fill in the form below and we will contact you!</p>
+        <p id="contactform">Do you like this site and want some more info? Please fill in the form below and we will contact you!</p>
         <form action="" method="get">
 
             <fieldset>
@@ -50,9 +52,9 @@
                     <option value="normal">Normal</option>
                     <option value="sad">Sad</option>
                 </select>
-
+                <input type="submit" value="Send" />
             </fieldset>
-            <input type="submit" value="Send" />
+            
         </form>
         
     </div>

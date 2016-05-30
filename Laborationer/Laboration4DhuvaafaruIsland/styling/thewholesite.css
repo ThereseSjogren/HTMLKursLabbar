@@ -8,9 +8,8 @@
 }
 header{
     background-image: url('../images/bakgrundbild1.jpg');
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size:100vw;
+    background-position:left;
+    background-size:cover;
 }
 
 .container, .box {
@@ -19,7 +18,17 @@ header{
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
-
+form{
+    border:3px solid black;
+    margin-top:40px;
+    margin-left:25%;
+    box-shadow:3px 3px rgb(128, 128, 128);
+    border-radius:5px;
+}
+#contactform{
+    font-size:large;
+    margin-top:-50px;
+}
 figcaption {
     display: none;
 }
@@ -37,6 +46,25 @@ figcaption {
         list-style-type: none;
         color: black;
     }
+    a{
+        border:2px solid black;
+        padding:4px;
+        border-radius:15%;
+        box-shadow:5px 5px;
+        color: black;
+        transition:all 2s;
+    }
+    a:hover{
+        border:10px ridge blue;
+        padding:6px;
+        text-transform:uppercase;
+        font-family:'Comic Sans MS';
+
+    }
+
+p{
+    color:black;
+}
 
 .box img {
     width: 20vw;
