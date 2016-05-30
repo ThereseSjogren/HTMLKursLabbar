@@ -1,21 +1,37 @@
 ﻿body {
     background-color:lightblue;
 }
+.container-fluid{
+     /*position:fixed;
+    z-index:1;*/
+    margin-bottom:50px;
+}
 .container, .box{
     display:flex;
     -webkit-flex-wrap:wrap;
     -ms-flex-wrap:wrap;
     flex-wrap:wrap;
 }
+
 ul{
+    margin-bottom:5px;
+    padding:5px;
+    background-color:#13bef9;
+    opacity:0.5;
     text-decoration:none;
+    
+   
 }
 ul li{
+    display:inline;
+    margin:5px;
     list-style-type:none;
+    
 }
-p{
-    display:none;
+li{
+color:black;
 }
+
 .box img{
     width:20vw;
     height:20vw;
@@ -23,10 +39,10 @@ p{
 .box{
     padding:2px;
     margin:3px;
-    transition:all 5s;
+    transition:all 6s;
 }
-.box:hover {
-    transform:rotate(360deg);
-}
+    .box:hover {
+        transform: /*rotate(360deg)*/ rotateX(360deg) rotate(360deg);
+    }
 
   
