@@ -1,78 +1,76 @@
 ﻿body {
-    background-color:lightblue;
+    background-color: lightblue;
+   
 }
 
 .container-fluid {
-    margin-right:200px;
-    margin-bottom:200px;
-    
+    margin-right: 200px;
+    margin-bottom: 200px;
+    background-image:
+         url('../images/BakgrundsbildSidorna.PNG');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    opacity:1.6;
     
 }
 
-.container, .box{
-    display:flex;
-    -webkit-flex-wrap:wrap;
-    -ms-flex-wrap:wrap;
-    flex-wrap:wrap;
-   
+.container, .box {
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
-figcaption{
-    display:none;
-}
-ul{
-    margin-bottom:5px;
-    padding:5px;
-    background-color:#13bef9;
-    opacity:0.5;
-    text-decoration:none;
-    
-   
-}
-ul li{
-    display:inline;
-    margin:5px;
-    list-style-type:none;
-    
-}
-li{
-color:black;
+figcaption {
+    display: none;
 }
 
-.box img{
-    width:20vw;
-    height:20vw;
-    margin-top:10%;
+ul {
+    margin-bottom: 5px;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 20%;
 }
-.box{
-    padding:2px;
-    margin:3px;
-    transition:all 6s;
-}
-    .box:hover {
-        transform: /*rotate(360deg)*/ rotateX(360deg) rotate(360deg);
-        
-        }
-    
-    #wrappertv{
-        border:5px solid black;
-        padding:15px;
-        background-color:white;
-        border-radius:5%;
-        margin-top:10%;
-    }
-    #tv{
-    border:5px solid black;
-    
-    
-    }
-    canvas{
-        border:3px solid black;
-        margin-top:5%;
-        width:500px;
-        height:200px;
-        
-    }
-    
 
+    ul li {
+        display: inline;
+        margin: 5px;
+        list-style-type: none;
+         color: black;       
+}
   
+.box img {
+    width: 20vw;
+    height: 20vw;
+    margin-top: 10%;
+}
+
+.box {
+    padding: 2px;
+    margin: 3px;
+    transition: all 6s;
+}
+
+    .box:hover {
+        transform: /*rotate(360deg)*/ rotateX(360deg) rotateY(360deg);
+    }
+
+#wrappertv {
+    border: 5px solid black;
+    background-color: white;
+    border-radius: 5%;
+    margin-top: 10%;
+    padding: 5%;
+}
+
+#tv {
+    border: 5px solid black;
+}
+
+canvas {
+    border: 3px solid black;
+    margin-top: 5%;
+    width: 500px;
+    height: 200px;
+}
