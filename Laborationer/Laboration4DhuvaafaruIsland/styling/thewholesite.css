@@ -7,6 +7,12 @@
     -ms-flex-wrap:wrap;
     flex-wrap:wrap;
 }
+ul{
+    text-decoration:none;
+}
+ul li{
+    list-style-type:none;
+}
 p{
     display:none;
 }
