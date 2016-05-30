@@ -105,6 +105,7 @@
     <Content Include="images\BigWave.PNG" />
     <Content Include="images\ClownFish.PNG" />
     <Content Include="images\HappySmiley.PNG" />
+    <Content Include="images\header.PNG" />
     <Content Include="images\HusVidVattnet.PNG" />
     <Content Include="images\MaldivesWave.PNG" />
     <Content Include="images\NormalSmiley.PNG" />

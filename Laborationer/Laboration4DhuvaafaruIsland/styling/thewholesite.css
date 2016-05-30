@@ -1,18 +1,25 @@
 ﻿body {
     background-color:lightblue;
 }
-.container-fluid{
-     /*position:fixed;
-    z-index:1;*/
-    margin-bottom:50px;
+
+.container-fluid {
+    margin-right:200px;
+    margin-bottom:200px;
+    
+    
 }
+
 .container, .box{
     display:flex;
     -webkit-flex-wrap:wrap;
     -ms-flex-wrap:wrap;
     flex-wrap:wrap;
+   
 }
 
+figcaption{
+    display:none;
+}
 ul{
     margin-bottom:5px;
     padding:5px;
@@ -35,6 +42,7 @@ color:black;
 .box img{
     width:20vw;
     height:20vw;
+    margin-top:10%;
 }
 .box{
     padding:2px;
@@ -43,17 +51,28 @@ color:black;
 }
     .box:hover {
         transform: /*rotate(360deg)*/ rotateX(360deg) rotate(360deg);
-    }
+        
+        }
+    
     #wrappertv{
         border:5px solid black;
         padding:15px;
         background-color:white;
         border-radius:5%;
+        margin-top:10%;
     }
     #tv{
     border:5px solid black;
     
     
     }
+    canvas{
+        border:3px solid black;
+        margin-top:5%;
+        width:500px;
+        height:200px;
+        
+    }
+    
 
   
