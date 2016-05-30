@@ -13,8 +13,9 @@
 <body>
     
     <div class="container-fluid">
-        <h1>Contact</h1>
+        
         <header>
+            <h1>Contact</h1>
             <nav>
                 <ul>
                     <li><a href="../index.html">Home</a></li>
@@ -35,10 +36,15 @@
 
             <fieldset>
                 <legend>Contact Details</legend>
-                <label for="firstname">Firstname:<input type="text" name="firstname" placeholder="Firstname" required /></label><br />
-                <label for="lastname">Lastname:<input type="text" name="lastname" placeholder="Lastname" required /></label><br />
-                <label for="phonenumber">PhoneNumber:<input type="tel" name="phonenumber" placeholder="PhoneNumber" required /></label><br />
-                <label for="email">Email:<input type="email" name="mail" placeholder="Email" required /></label><br />
+                <label for="firstname">Firstname:</label>
+                <input id="firstname" autofocus type="text" name="firstname" placeholder="Firstname" required />
+                <br />
+                <label for="lastname">Lastname:</label>
+                <input id="lastname" type="text" name="lastname" placeholder="Lastname" required /><br />
+                <label for="phonenumber">PhoneNumber:</label>
+                <input id="phonenumber" type="tel" name="phonenumber" placeholder="PhoneNumber" required /><br />
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="mail" placeholder="Email" required /><br />
                 <select name="howSiteis">
                     <option value="happy">Happy</option>
                     <option value="normal">Normal</option>

@@ -1,18 +1,16 @@
 ﻿body {
     background-color: lightblue;
-   
 }
 
 .container-fluid {
     margin-right: 200px;
     margin-bottom: 200px;
-    background-image:
-         url('../images/BakgrundsbildSidorna.PNG');
+}
+header{
+    background-image: url('../images/bakgrundbild1.jpg');
     background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    opacity:1.6;
-    
+    background-repeat: no-repeat;
+    background-size:100vw;
 }
 
 .container, .box {
@@ -26,7 +24,7 @@ figcaption {
     display: none;
 }
 
-ul {
+ ul {
     margin-bottom: 5px;
     padding: 5px;
     text-decoration: none;
@@ -37,9 +35,9 @@ ul {
         display: inline;
         margin: 5px;
         list-style-type: none;
-         color: black;       
-}
-  
+        color: black;
+    }
+
 .box img {
     width: 20vw;
     height: 20vw;
