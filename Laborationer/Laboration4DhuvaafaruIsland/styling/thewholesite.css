@@ -16,21 +16,21 @@
 }
 /*.container{border-width:0;}*/
 
-.reception {
+/*.reception {
     margin-top: 12vh;
     border: 10px groove black;
     border-radius: 5%;
     padding: 6px;
-}
+}*/
 /*article section{
     background-color:rgba(105, 131, 197, 0.72);
 }*/
 form {
-    border: 3px solid black;
-    margin-top: 8vh;
+    /*border: 3px solid black;*/
+    margin-top: 10vh;
     margin-left: 25%;
-    box-shadow: 3px 3px rgb(128, 128, 128);
-    border-radius: 5px;
+    
+   
 }
 label{
     background-color:rgba(255, 255, 255, 0.70);
