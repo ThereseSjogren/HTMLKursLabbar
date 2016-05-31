@@ -1,12 +1,15 @@
 ﻿body {
     background-color: lightblue;
+    
 }
-article{
-    margin-top:12vh;
+
+article, section, h2{
+    margin-top:15vh;
 }
+
 form{
     border:3px solid black;
-    margin-top:40px;
+    margin-top:12vh;
     margin-left:25%;
     box-shadow:3px 3px rgb(128, 128, 128);
     border-radius:5px;
