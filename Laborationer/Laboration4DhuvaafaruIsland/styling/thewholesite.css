@@ -1,27 +1,44 @@
 ﻿body {
     background-color: lightblue;
-    
+    background-image: url('../images/MALE.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container-fluid {
+    background-image: url('../images/MALE.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-width:0;
+}
+.container{border-width:0;}
+
+.reception {
+    margin-top: 12vh;
+    border: 10px groove black;
+    border-radius: 5%;
+    padding: 6px;
+}
+/*article section{
+    background-color:rgba(105, 131, 197, 0.72);
+}*/
+form {
+    border: 3px solid black;
+    margin-top: 8vh;
+    margin-left: 25%;
+    box-shadow: 3px 3px rgb(128, 128, 128);
+    border-radius: 5px;
 }
 
-.reception{
-    margin-top:12vh;
-    border:10px groove black;
-    border-radius:5%;
-    padding:6px;
+#contactform {
+    font-size: large;
+    margin-top: 12vh;
 }
 
-form{
-    border:3px solid black;
-    margin-top:8vh;
-    margin-left:25%;
-    box-shadow:3px 3px rgb(128, 128, 128);
-    border-radius:5px;
-}
-#contactform{
-    font-size:large;
-    margin-top:12vh;
-}
- ul {
+ul {
     margin-bottom: 5px;
     padding: 5px;
     text-decoration: none;
@@ -34,27 +51,41 @@ form{
         list-style-type: none;
         color: black;
     }
-    a{
-        border:2px solid black;
-        padding:4px;
-        border-radius:15%;
-        box-shadow:5px 5px;
-        color: black;
-        transition:all 2s;
-    }
-    a:hover{
-        border:10px ridge blue;
-        padding:6px;
-        text-transform:uppercase;
-        font-family:'Comic Sans MS';
 
+a {
+    border: 2px solid black;
+    padding: 4px;
+    border-radius: 15%;
+    box-shadow: 5px 5px;
+    color: black;
+    transition: all 2s;
+    
+}
+
+    a:hover {
+        border: 10px ridge blue;
+        padding: 6px;
+        text-transform: uppercase;
+        font-family: 'Comic Sans MS';
+        
     }
-.row{
-    margin:12vh;
+
+.row {
+    margin: 12vh;
 }
-p{
-    color:black;
+.index{
+    background-color:rgba(105, 131, 197, 0.72);
 }
+.ett, .tvau,.tre,.fyra,.fem{
+    margin:5px;
+}
+p {
+    color: black;
+}
+p:hover, h3:hover{
+    color:white;
+}
+
 #wrappertv {
     border: 5px solid black;
     background-color: white;
