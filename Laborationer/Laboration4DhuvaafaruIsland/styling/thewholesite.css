@@ -1,20 +1,8 @@
 ﻿body {
     background-color: lightblue;
 }
-
-.container-fluid {
-    margin:5px;
-}
-.container{
-    margin-top:20vh;
-}
-
-.container, .box {
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    
+article{
+    margin-top:12vh;
 }
 form{
     border:3px solid black;
@@ -25,10 +13,7 @@ form{
 }
 #contactform{
     font-size:large;
-    margin-top:12vh;;
-}
-figcaption {
-    display: none;
+    margin-top:12vh;
 }
  ul {
     margin-bottom: 5px;
@@ -62,23 +47,6 @@ figcaption {
 p{
     color:black;
 }
-
-.box img {
-    width: 20vw;
-    height: 20vw;
-    margin-top: 10%;
-}
-
-.box {
-    padding: 2px;
-    margin-top: 12vh;
-    transition: all 6s;
-}
-
-    .box:hover {
-        transform: /*rotate(360deg)*/ rotateX(360deg) rotateY(360deg);
-    }
-
 #wrappertv {
     border: 5px solid black;
     background-color: white;

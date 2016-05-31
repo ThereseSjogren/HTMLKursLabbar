@@ -116,9 +116,11 @@
     <Content Include="images\PalmAndSun.PNG" />
     <Content Include="images\Palms.PNG" />
     <Content Include="images\SadSmiley.PNG" />
+    <Content Include="images\sea.PNG" />
     <Content Include="images\Strand1.PNG" />
     <Content Include="images\Sunset.PNG" />
     <Content Include="images\Sunset2.PNG" />
+    <Content Include="images\Sunset3.PNG" />
     <Content Include="images\UnderWater.PNG" />
     <Content Include="images\Videos\Maldive3.mp4" />
     <Content Include="index.html" />
@@ -157,6 +159,7 @@
   <ItemGroup>
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="styling\photoflipping.css" />
     <Content Include="styling\thewholesite.css" />
     <Content Include="Web.config" />
   </ItemGroup>
