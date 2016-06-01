@@ -161,7 +161,9 @@
   <ItemGroup>
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="scripts\MaldiveGame.js" />
     <Content Include="scripts\VideoSnapShot.js" />
+    <Content Include="styling\MaldiveGame.css" />
     <Content Include="styling\photoflipping.css" />
     <Content Include="styling\thewholesite.css" />
     <Content Include="styling\videosnapTV.css" />

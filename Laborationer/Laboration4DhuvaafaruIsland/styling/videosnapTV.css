@@ -2,6 +2,9 @@
     border:3px solid black;
     margin-top: 30%;
 }
+#myCanvas{
+    background-color:rgba(204, 245, 248, 0.67);
+}
 
 .videoWrapper {
     position: relative;
@@ -13,11 +16,15 @@
 .videoWrapper iframe,
 .videoWrapper object,
 .videoWrapper embed {
+    border:3px solid gold;
+    padding:5%;
+    background-color:white;
+    border-radius:5%;
         position: absolute;
         top: 0;
-        left: 0;
-        width: 50%;
-        height: 50%;
+        left: 10px;
+        width: 60%;
+        height: 60%;
     }
 .TvInner video{
     border:3px solid black;
