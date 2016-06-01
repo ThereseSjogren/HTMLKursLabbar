@@ -15,18 +15,59 @@
     position:absolute;
     top:85%;
     left:15%;
-    animation:moray 5s infinite;
+    animation:moray 10s infinite;
 
 }
 .aquarium .nurseshark{
     position:absolute;
     top:40%;
     right:13%;
+    animation:nurseshark 10s infinite;
 }
 .aquarium .stonefish{
     position:absolute;
     top:76%;
     right:13%;
+}
+@keyframes nurseshark{
+    0%{
+        top:300px;
+        right:100px;
+    }
+    25%{
+        top:350px;
+        right:200px;
+    }
+    40%{
+        top:400px;
+        right:300px;
+        transform:rotateY(90deg);
+    }
+    50%{
+        top:450px;
+        right:320px;
+        transform:rotateY(90deg);
+    }
+    60%{
+        top:550px;
+        right:310px;
+        transform:rotateY(180deg);
+    }
+    75%{
+        top:550px;
+        right:270px;
+        transform:rotateY(180deg);
+    }
+    90%{
+        top:500px;
+        right:230px;
+        transform:rotateY(180deg);
+    }
+    100%{
+        top:450px;
+        right:140px;
+        transform:rotateY(180deg);
+    }
 }
 @keyframes moray{
     0%{
