@@ -1,6 +1,22 @@
 ﻿canvas{
-    margin-top:150px;
-    margin-left:-110px;
-    width:120vw;
-    height:80vh;
+    margin-top:130px;
+    margin-left:-250px;
+    width:150vw;
+    height:100vh;
+    z-index:-1;
+}
+.aquarium .diver{
+    position:absolute;
+    top:575px;  
+}
+.aquarium .moray{
+    width:150px;
+    height:80px;
+    position:absolute;
+    top:125%;
+    left:15%;
+
+}
+.aquarium .nurseshark{
+
 }

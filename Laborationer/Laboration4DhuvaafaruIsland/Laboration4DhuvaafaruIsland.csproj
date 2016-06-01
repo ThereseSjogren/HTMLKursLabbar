@@ -114,6 +114,10 @@
     <Content Include="images\NormalSmiley.PNG" />
     <Content Include="images\OceanAndBeach.PNG" />
     <Content Include="images\OceanAndBeach2.PNG" />
+    <Content Include="images\onlyDiver.png" />
+    <Content Include="images\onlymoray.png" />
+    <Content Include="images\onlynursechark.png" />
+    <Content Include="images\onlystonefish.png" />
     <Content Include="images\PalmAndSun.PNG" />
     <Content Include="images\Palms.PNG" />
     <Content Include="images\SadSmiley.PNG" />
