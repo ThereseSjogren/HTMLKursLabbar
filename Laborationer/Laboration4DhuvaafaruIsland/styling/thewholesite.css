@@ -27,14 +27,18 @@ form {
     margin-top: 10vh;
     margin-left: 25%;
 }
+textarea{
+    width:40vw;
+    height:40vh;
 
+}
 label, legend {
     background-color: rgba(255, 255, 255, 0.70);
 }
 
-#contactform {
+.contactform {
     font-size: large;
-    margin-top: 12vh;
+    margin-top: 18vh;
     background-color: #44aaee;
 }
 
