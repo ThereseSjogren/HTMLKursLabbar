@@ -95,25 +95,4 @@ p {
     margin-top: 14vh;
 }
 
-video {
-    width: 75%;
-    height: auto;
-    margin-top: 30%;
-}
-
-.videoWrapper {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 60px;
-    overflow: hidden;
-}
-.videoWrapper iframe,
-.videoWrapper object,
-.videoWrapper embed {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 50%;
-        height: 50%;
-    }
 
