@@ -31,22 +31,22 @@
 @keyframes moray{
     0%{
         top:700px;
-        left:220px;
+        left:350px;
     }
     25%{
         top:700px;
-        left:350px;
+        left:480px;
     }
     50%{
         top:500px;
-        left:350px;
+        left:480px;
     }
     75%{
         top:500px;
-        left:220px;
+        left:350px;
     }
     100%{
         top:700px;
-        left:220px;
+        left:350px;
     }
 }
