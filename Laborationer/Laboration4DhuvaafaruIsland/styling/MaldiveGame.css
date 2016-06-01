@@ -7,16 +7,46 @@
 }
 .aquarium .diver{
     position:absolute;
-    top:575px;  
+    top:30%;  
 }
 .aquarium .moray{
     width:150px;
     height:80px;
     position:absolute;
-    top:125%;
+    top:85%;
     left:15%;
+    animation:moray 5s infinite;
 
 }
 .aquarium .nurseshark{
-
+    position:absolute;
+    top:40%;
+    right:13%;
+}
+.aquarium .stonefish{
+    position:absolute;
+    top:76%;
+    right:13%;
+}
+@keyframes moray{
+    0%{
+        top:700px;
+        left:220px;
+    }
+    25%{
+        top:700px;
+        left:350px;
+    }
+    50%{
+        top:500px;
+        left:350px;
+    }
+    75%{
+        top:500px;
+        left:220px;
+    }
+    100%{
+        top:700px;
+        left:220px;
+    }
 }
