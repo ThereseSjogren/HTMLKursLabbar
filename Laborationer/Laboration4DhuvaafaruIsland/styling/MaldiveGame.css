@@ -22,14 +22,14 @@
     position:absolute;
     top:40%;
     right:13%;
-    animation:nurseshark 10s infinite;
+    /*animation:nurseshark 10s infinite;*/
 }
 .aquarium .stonefish{
     position:absolute;
     top:76%;
     right:13%;
 }
-@keyframes nurseshark{
+/*@keyframes nurseshark{
     0%{
         top:300px;
         right:100px;
@@ -68,7 +68,7 @@
         right:140px;
         transform:rotateY(180deg);
     }
-}
+}*/
 @keyframes moray{
     0%{
         top:700px;
